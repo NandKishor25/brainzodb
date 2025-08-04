@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5051;
 
 // MongoDB URI
 // Load environment variables from .env file
-require('dotenv').config();
+require('dotenv').config({ path: './.env' });
 
 const MONGODB_URI = process.env.MONGODB_URI;
 
